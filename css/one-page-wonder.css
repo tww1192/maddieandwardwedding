@@ -14,8 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-family: 'Lato';
 }
 
 .btn-xl {
@@ -26,8 +25,8 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-.bg-black {
-  background-color: #000 !important;
+.bg-footer > div > p{
+  color:rgb(46,46,46);
 }
 
 .rounded-pill {
@@ -37,7 +36,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  /*background-color: rgba(0, 0, 0, 0.7);*/
 }
 
 .navbar-custom .navbar-brand {
@@ -45,6 +44,7 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
+  color:rgb(46,46,46);
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -52,6 +52,7 @@ h6 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  color:rgb(46,46,46);
 }
 
 header.masthead {
@@ -59,7 +60,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /**background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
+  
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -72,46 +74,13 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: 3rem;
+  color:rgb(46,46,46);
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
-}
-
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
-}
-
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
+  font-size: 1.5rem;
+  color:rgb(46,46,46);
 }
 
 @media (min-width: 992px) {
@@ -120,10 +89,10 @@ header.masthead .bg-circle-4 {
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -157,4 +126,19 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.section1
+{
+  background-color:#50b796;
+}
+
+.section2
+{
+  background-color:#e4f1e0;
+}
+
+.section3
+{
+  background-color:#f9ded8;
 }
