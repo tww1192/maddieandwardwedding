@@ -36,7 +36,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /*background-color: rgba(0, 0, 0, 0.7);*/
+  background-color: rgba(80, 183, 150/*);*/, 0.7);
 }
 
 .navbar-custom .navbar-brand {
@@ -44,7 +44,7 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
-  color:rgb(46,46,46);
+  color:white;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -52,7 +52,7 @@ h6 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  color:rgb(46,46,46);
+  color:white;
 }
 
 header.masthead {
@@ -61,7 +61,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   /**background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
-  
+  /**background-image: url(../img/IMG_0113.JPG);*/
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -75,12 +75,12 @@ header.masthead .masthead-content {
 
 header.masthead .masthead-content .masthead-heading {
   font-size: 3rem;
-  color:rgb(46,46,46);
+  color:rgba(80, 183, 150/*);*/, 0.7);
 }
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 1.5rem;
-  color:rgb(46,46,46);
+  color:rgba(80, 183, 150/*);*/, 0.7);
 }
 
 @media (min-width: 992px) {
@@ -128,17 +128,47 @@ header.masthead .masthead-content .masthead-subheading {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
-.section1
+.ourStory
 {
-  background-color:#50b796;
+  background-color:white;
 }
 
-.section2
+.weekend
 {
   background-color:#e4f1e0;
 }
 
-.section3
+.lodging
 {
   background-color:#f9ded8;
+}
+
+.registry
+{
+  background-color:#e4f1e0;
+}
+
+.faq
+{
+  background-color:#f9ded8;
+}
+
+.map
+{
+
+}
+
+.iframeClass
+{
+  width:100%;
+}
+
+.weekendHeader
+{
+  text-align:center;
+}
+
+.weekendList
+{
+  list-style-type: none; /* Remove bullets */
 }
