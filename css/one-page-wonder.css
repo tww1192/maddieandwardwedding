@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+ /* dark blue : rgb(54,101,138) #36658A
+    light blue : rgb(190, 211, 228) #BED3E4
+    light pink : 
+    */
+
 body {
   font-family: 'Lato';
 }
@@ -36,7 +41,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(80, 183, 150/*);*/, 0.7);
+  background-color: rgba(255,255,255, 0.7);
 }
 
 .navbar-custom .navbar-brand {
@@ -44,7 +49,7 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
-  color:white;
+  color:rgb(54,101,138);
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -52,7 +57,7 @@ h6 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  color:white;
+  color:rgb(54,101,138);
 }
 
 header.masthead {
@@ -61,7 +66,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   /**background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
-  /**background-image: url(../img/IMG_0113.JPG);*/
+  background-image: url(../img/image5.JPG);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -75,12 +80,12 @@ header.masthead .masthead-content {
 
 header.masthead .masthead-content .masthead-heading {
   font-size: 3rem;
-  color:rgba(80, 183, 150/*);*/, 0.7);
+  color:rgba(54,101,138/*);*/, 0.7);
 }
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 1.5rem;
-  color:rgba(80, 183, 150/*);*/, 0.7);
+  color:rgba(190, 211, 228/*);*/, 0.7);
 }
 
 @media (min-width: 992px) {
