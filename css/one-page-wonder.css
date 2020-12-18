@@ -63,14 +63,8 @@
     header.masthead {
       position: relative;
       overflow: hidden;
-      /*padding-top: calc(7rem + 72px);*/
       padding-top:72px;
-      padding-bottom: 7rem;
-      /**background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
-      background-image: url(../img/flowerStemsHrz.png);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-attachment: scroll;*/
+      padding-bottom: 3rem;
       background-color:white;
     }
     
@@ -82,7 +76,7 @@
     #heroBottom
     {
       width:50vw;
-      margin-top:-40px;
+      margin-top:-5px;
     }
     
     header.masthead .masthead-content {
@@ -113,7 +107,7 @@
       header.masthead {
         /*padding-top: calc(10rem + 55px);*/
         padding-top:100px;
-        padding-bottom: 10rem;
+        padding-bottom: 5rem;
       }
       header.masthead .masthead-content .masthead-heading {
         font-size: 4rem;
@@ -169,19 +163,24 @@
       color:white;*/
     }
     
-    .lodging
+    .Accommodations
     {
-      background-color:#f9ded8;
+      color:rgb(54,101,138);
     }
     
     .registry
     {
-      background-color:#e4f1e0;
+      color:rgb(54,101,138);
     }
     
     .faq
     {
-      background-color:#f9ded8;
+      color:rgb(54,101,138);
+    }
+
+    .map
+    {
+      color:rgb(54,101,138);
     }
     
     .iframeClass
@@ -246,15 +245,16 @@
       border-left:1px solid rgb(54,101,138);
     }
 
-    .scheduleHeaders
+    .rowHeaders
     {
       font-size:30px;
       font-weight:300;
     }
-    .scheduleText
+    .rowText
     {
       font-size:18px;
-      font-weight:300;
+      font-weight:320;
+      color:rgb(54,101,138);
     }
 
     .weekendCols
@@ -268,4 +268,47 @@
       width:10vw;
       display:block;
       margin:0 auto;
+    }
+
+    .footerP
+    {
+      color:rgb(54,101,138) !important;
+      margin-bottom:0 !important;
+    }
+
+    .buttonCal
+    {
+      width:50%;
+      background: 0 0;
+      border: 1px solid rgb(54,101,138);
+      color:rgb(54,101,138);
+      margin:5px;
+    }
+
+    .schedPhotoWrapper
+    {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 30px auto;
+    }
+    
+    .schedPhoto
+    {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 150px;
+      height: 150px;
+      margin: auto;
+    }
+
+    .schedRows
+    {
+      margin-bottom:50px;
+    }
+    .schedContainers
+    {
+      margin-top:10%;
     }

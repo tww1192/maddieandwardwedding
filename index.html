@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="The wedding website of Maddie Schuster and Ward Wood.  Maddie and Ward Wood wedding.">
+  <meta name="author" content="Seven Mile Consulting LLC">
 
   <title>Maddie Schuster and Ward Wood Wedding Website</title>
 
@@ -20,6 +20,11 @@
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
+  <!-- Favicon for browser tab-->
+  <link rel="icon" 
+      type="image/png" 
+      href="img/chessyFavicon.png">
+
 </head>
 
 <body>
@@ -27,7 +32,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Maddie and Ward</a>
+      <a class="navbar-brand" href="#maddieward">Maddie and Ward</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <!--<span class="navbar-toggler-icon"></span>-->
           <div class='mobileMenu'></div>
@@ -37,22 +42,22 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Weekend</a>
+            <a class="nav-link" href="#weekend">Weekend</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Lodging</a>
+            <a class="nav-link" href="#accommodations">Accommodations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Registry</a>
+            <a class="nav-link" href="#registry">Registry</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Things to Do</a>
+            <a class="nav-link" href="#richmond">Richmond</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">FAQS</a>
+              <a class="nav-link" href="#faqs">FAQS</a>
             </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Some Pics</a>
+              <a class="nav-link" href="#photos">Photos</a>
             </li>
         </ul>
       </div>
@@ -60,7 +65,7 @@
   </nav>
 
   <header class="masthead text-center text-white">
-    <div class="masthead-content">
+    <div class="masthead-content" id='maddieward'>
       <h class="container">
         <!--<h1 class="masthead-heading mb-0">Maddie and Ward</h1>
         <h3 class="masthead-subheading mb-0">are getting married</h3>
@@ -113,7 +118,7 @@
     </div>
   </section>
 
-  <section class="weekend">
+  <section class="weekend" id='weekend'>
     <div class="container">
       <div class="align-items-center">
 
@@ -122,65 +127,123 @@
             <h2 class="display-4 weekendHeader">Weekend</h2>
           </div>
           
-            <div class="row">
+            <div class="row schedRows">
+              <div class="col-sm-6 weekendCols">
+                <div class='schedContainers'>
+                  <p class='rowHeaders'>Rehearsal Dinner <i>(by invitation)</i></p>
+                  <p class='rowText'>Friday September 10th</p>
+                  <p class='rowText'>6:00-8:00PM</p>
+                  <button class="buttonCal">Map</button>
+                  <button class="buttonCal">Add to Calendar</button>
+                </div>
+              </div>
+
+              <div class="rightCol col-sm-6 weekendCols">
+                  <div class="schedPhotoWrapper">
+                        <a href="https://stellasrichmond.com/" class="block-link" target="_blank" rel="noopener noreferrer">
+                          <div class="schedPhoto" style="background-image: url('img/stellasImg.jpeg')">
+                          </div>
+                        </a>
+                  </div>
+                  <p class='rowHeaders'>Stella's</p>
+                  <p class='rowText'>1012 Lafayette Street</p>
+                  <p class='rowText'>Richmond, VA 23221</p>
+                </div>
+            </div>
+
+            <div class="row schedRows">
                 <div class="col-sm-6 weekendCols">
-                  <p class='scheduleHeaders'>Welcome Party!</p>
-                  <p class='scheduleText'>Friday September 10th</p>
-                  <p class='scheduleText'>8:00-11:00PM</p>
+                    <div class='schedContainers'>
+                      <p class='rowHeaders'>Welcome Party!</p>
+                      <p class='rowText'>Friday September 10th</p>
+                      <p class='rowText'>8:00-11:00PM</p>
+                      <button class="buttonCal">Map</button>
+                      <button class="buttonCal">Add to Calendar</button>
+                    </div>
                 </div>
     
                 <div class="rightCol col-sm-6 weekendCols">
-                    <p class='scheduleText'>Address</p>
-                    <!--<button>Map</button>
-                    <button>Add to Calendar</button>-->
+                    <div class="schedPhotoWrapper">
+                        <a href="https://www.commonhouse.com/richmond/" class="block-link" target="_blank" rel="noopener noreferrer">
+                          <div class="schedPhoto" style="background-image: url('img/commonImg.png')">
+                          </div>
+                        </a>
+                    </div>
+                    <p class='rowHeaders'>Common House</p>
+                    <p class='rowText'>303 W Broad St</p>
+                    <p class='rowText'>Richmond, VA 23220</p>
                   </div>
             </div>
 
-            <div class="row">
+            <div class="row schedRows">
                 <div class="col-sm-6 weekendCols">
-                  <br></br>
-                  <p class='scheduleHeaders'>Ceremony</p>
-                  <p class='scheduleText'>Saturday September 11th</p>
-                  <p class='scheduleText'>5:00PM</p>
+                    <div class='schedContainers'>
+                      <p class='rowHeaders'>Ceremony</p>
+                      <p class='rowText'>Saturday September 11th</p>
+                      <p class='rowText'>5:00PM</p>
+                      <button class="buttonCal">Map</button> 
+                      <button class="buttonCal">Add to Calendar</button>
+                    </div>
                 </div>
     
                 <div class="rightCol col-sm-6 weekendCols">
-                    <br></br>
-                    <p class='scheduleText'>Address</p>
-                    <!--<button>Map</button>
-                    <button>Add to Calendar</button>-->
+                    <div class="schedPhotoWrapper">
+                        <a href="https://www.ststephensrva.org/" class="block-link" target="_blank" rel="noopener noreferrer">
+                          <div class="schedPhoto" style="background-image: url('img/stStephens.jpg')">
+                          </div>
+                        </a>
+                    </div>
+                    <p class='rowHeaders'>St. Stephen's Episcopal Church</p>
+                    <p class='rowText'>6000 Grove Ave</p>
+                    <p class='rowText'>Richmond, VA 23226</p>
                   </div>
             </div>
 
-            <div class="row">
+            <div class="row schedRows">
                 <div class="col-sm-6 weekendCols">
-                  <br></br>
-                  <p class='scheduleHeaders'>Reception</p>
-                  <p class='scheduleText'>Saturday September 11th</p>
-                  <p class='scheduleText'>6:00PM-11:00PM</p>
+                    <div class='schedContainers'>
+                      <p class='rowHeaders'>Reception</p>
+                      <p class='rowText'>Saturday September 11th</p>
+                      <p class='rowText'>6:00PM-11:00PM</p>
+                      <button class="buttonCal">Map</button>
+                      <button class="buttonCal">Add to Calendar</button>
+                    </div>
                 </div>
     
                 <div class="rightCol col-sm-6 weekendCols">
-                    <br></br>
-                    <p class='scheduleText'>Address</p>
-                    <!--<button>Map</button>
-                    <button>Add to Calendar</button>-->
+                    <div class="schedPhotoWrapper">
+                        <a href="https://www.theccv.org/" class="block-link" target="_blank" rel="noopener noreferrer">
+                          <div class="schedPhoto" style="background-image: url('img/ccvImage.jpeg')">
+                          </div>
+                        </a>
+                    </div>
+                    <p class='rowHeaders'>Country Club of Virginia - James River</p>
+                    <p class='rowText'>709 S Gaskins Rd</p>
+                    <p class='rowText'>Richmond, VA 23238</p>
                   </div>
             </div>
 
-            <div class="row">
+            <div class="row schedRows">
                 <div class="col-sm-6 weekendCols">
-                  <br></br>
-                  <p class='scheduleHeaders'>After Party</p>
-                  <p class='scheduleText'>Saturday September 11th</p>
-                  <p class='scheduleText'>11:00PM-</p>
+                    <div class='schedContainers'>
+                      <p class='rowHeaders'>After Party</p>
+                      <p class='rowText'>Saturday September 11th</p>
+                      <p class='rowText'>11:00PM-</p>
+                      <button class="buttonCal">Map</button>
+                      <button class="buttonCal">Add to Calendar</button>
+                    </div>
                 </div>
     
                 <div class="rightCol col-sm-6 weekendCols">
-                    <br></br>
-                    <p class='scheduleText'>Address</p>
-                    <!--<button>Map</button>
-                    <button>Add to Calendar</button>-->
+                    <div class="schedPhotoWrapper">
+                        <a href="https://www.postbellumrichmond.com/" class="block-link" target="_blank" rel="noopener noreferrer">
+                          <div class="schedPhoto" style="background-image: url('img/postbellumImg.jpg')">
+                          </div>
+                        </a>
+                    </div>
+                    <p class='rowHeaders'>Postbellum</p>
+                    <p class='rowText'>1323 W Main St</p>
+                    <p class='rowText'>Richmond, VA 23220</p>
                   </div>
             </div>
             
@@ -191,55 +254,120 @@
   </section>
   <br></br>
 
-  <section class="map">
+  <section class="Accommodations" id='accommodations'>
+      <div class="container">
+        <div class="align-items-center">
+  
+            <div class="p-5">
+              <img class='stemsBottom' src='img/flowerStemsHrz.png'></img>
+              <h2 class="display-4 weekendHeader">Accommodations</h2>
+              <p class='text-center'>We have hotel blocks reserved at The Graduate and Linden Row Inn.</p>
+              <p class='text-center'>Please refer to the Schuster-Wood wedding when booking.</p>
+            </div>
+
+            <div class="row schedRows">
+                <div class="col-sm-6 weekendCols">
+                    <div class="schedPhotoWrapper">
+                        <a href="https://www.graduatehotels.com/richmond/" class="block-link" target="_blank" rel="noopener noreferrer">
+                          <div class="schedPhoto" style="background-image: url('img/graduate.jpg')">
+                          </div>
+                        </a>
+                  </div>
+                  <p class='rowHeaders'>The Graduate</p>
+                  <p class='rowText'>301 W Franklin St</p>
+                  <p class='rowText'>Richmond, VA 23220</p>
+                  <u><a class='rowText' href="tel:804-644-9871">(804) 644-9871</a></u>
+                </div>
+  
+                <div class="rightCol col-sm-6 weekendCols">
+                    <div class="schedPhotoWrapper">
+                          <a href="https://www.lindenrowinn.com/" class="block-link" target="_blank" rel="noopener noreferrer">
+                            <div class="schedPhoto" style="background-image: url('img/linden.jpg')">
+                            </div>
+                          </a>
+                    </div>
+                    <p class='rowHeaders'>Linden Row</p>
+                    <p class='rowText'>100 E Franklin St</p>
+                    <p class='rowText'>Richmond, VA 23219</p>
+                    <u><a class='rowText' href="tel:804-783-7000">(804) 783-7000</a></u>
+                  </div>
+              </div>
+
+              <div class="p-5">
+                  <p class='text-center'>Other hotels in close proximity include:</p>
+              </div>
+
+              <div class="row schedRows">
+                  <div class="col-sm-6 weekendCols">
+                      <div class="schedPhotoWrapper">
+                          <a href="https://www.jeffersonhotel.com/" class="block-link" target="_blank" rel="noopener noreferrer">
+                            <div class="schedPhoto" style="background-image: url('img/jefferson.jpg')">
+                            </div>
+                          </a>
+                    </div>
+                    <p class='rowHeaders'>The Jefferson Hotel</p>
+                    <p class='rowText'>101 W Franklin St</p>
+                    <p class='rowText'>Richmond, VA 23220</p>
+                    <u><a class='rowText' href="tel:888-918-1895">(888) 918-1895</a></u>
+                  </div>
+    
+                  <div class="rightCol col-sm-6 weekendCols">
+                      <div class="schedPhotoWrapper">
+                            <a href="https://www.destinationhotels.com/quirk-hotel" class="block-link" target="_blank" rel="noopener noreferrer">
+                              <div class="schedPhoto" style="background-image: url('img/quirk.jpg')">
+                              </div>
+                            </a>
+                      </div>
+                      <p class='rowHeaders'>Quirk Hotel Richmond</p>
+                      <p class='rowText'>201 W Broad St</p>
+                      <p class='rowText'>Richmond, VA 23220</p>
+                      <u><a class='rowText' href="tel:804-340-6040">(804) 340-6040</a></u>
+                    </div>
+                </div>
+              
+        </div>
+      </div>
+  </section>
+  <br></br>
+
+  <section class="registry" id='registry'>
+      <div class="container">
+          <div class="align-items-center">
+              <div class="p-5">
+                <img class='stemsBottom' src='img/flowerStemsHrz.png'></img>
+                <h2 class="display-4 weekendHeader">Registry</h2>
+              </div>
+          </div>
+      </div>
+    </section>
+    <br></br>
+
+  <section class="map" id='richmond'>
+      <div class="p-5">
+          <img class='stemsBottom' src='img/flowerStemsHrz.png'></img>
+          <h2 class="display-4 weekendHeader">Richmond</h2>
+        </div>
       <iframe class="iframeClass" src="https://www.google.com/maps/d/u/0/embed?mid=1Ue7G7Sfg1gpbd4pLZF64kf86NukT1FrT" height="480"></iframe>
     </section>
 
-  <section class="lodging">
+  <section class="faq" id='faqs'>
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 order-lg-1">
+      <div class="align-items-center">
           <div class="p-5">
-            <h2 class="display-4">Lodging</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <img class='stemsBottom' src='img/flowerStemsHrz.png'></img>
+            <h2 class="display-4 weekendHeader">FAQs</h2>
           </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <section class="registry">
+  <section class="photos" id='photos'>
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-            <div class="p-5">
-          <ul>
-            <li>Crate &amp; Barrel</li>
-            <li>Amazon</li>
-            <li>Lulu Lemon</li>
-          </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
+      <div class="align-items-center">
           <div class="p-5">
-            <h2 class="display-4">Registry</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <img class='stemsBottom' src='img/flowerStemsHrz.png'></img>
+            <h2 class="display-4 weekendHeader">Photos</h2>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="faq">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
-            <h2 class="display-4">FAQ</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -247,10 +375,10 @@
   <!-- Footer -->
   <footer class="py-5 bg-footer">
     <div class="container">
-      <p class="text-center">M.S &amp; W.W</p>
+      <p class="text-center footerP">M &amp; W</p>
       <img class='stemsFooter' src='img/flowerStemsHrz.png'></img>
       <br></br>
-      <p class="m-0 text-center small">Built with love by Seven Mile Consulting LLC.</p>
+      <p class="m-0 text-center small footerP">Built with love by Seven Mile Consulting LLC</p>
     </div>
     <!-- /.container -->
   </footer>
