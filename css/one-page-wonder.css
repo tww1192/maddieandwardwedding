@@ -9,6 +9,11 @@
     light pink : 
     */
 
+    @font-face {
+      font-family: LuloCleanOne;
+      src: url(fonts/LuloCleanOne.otf);
+    }
+
     body {
       font-family: 'Lato';
     }
@@ -19,7 +24,7 @@
     h4,
     h5,
     h6 {
-      font-family: 'Lato';
+      font-family: 'LuloCleanOne';
     }
     
     .btn-xl {
@@ -48,16 +53,16 @@
       text-transform: uppercase;
       font-size: 1rem;
       letter-spacing: 0.1rem;
-      font-weight: 700;
+      font-weight: 600;
       color:rgb(54,101,138);
     }
     
     .navbar-custom .navbar-nav .nav-item .nav-link {
       text-transform: uppercase;
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      font-weight: 600;
       color:rgb(54,101,138);
+      font-family:LuloCleanOne;
     }
     
     header.masthead {
@@ -115,7 +120,22 @@
       header.masthead .masthead-content .masthead-subheading {
         font-size: 2rem;
       }
+      .nav-link
+      {
+        padding-left:2rem !important;
+        padding-right:2rem !important;
+      }
+      .nav-link:after
+      {
+          content: ""; /* This is necessary for the pseudo element to work. */ 
+          display: block; /* This will put the pseudo element on its own line. */
+          margin: 0 auto; /* This will center the border. */
+          width: 60%; /* Change this to whatever width you want. */
+          margin-bottom: 20px;
+          border-bottom:1px solid rgb(190,211,228);
+      }
     }
+
     
     .bg-primary {
       background-color: #ee0979 !important;
@@ -173,7 +193,7 @@
       color:rgb(54,101,138);
     }
     
-    .faq
+    .photos
     {
       color:rgb(54,101,138);
     }
@@ -201,16 +221,14 @@
     .heroText
     {
       color:rgb(54,101,138);
-      font-family:'Lato';
-      font-weight:350;
+      font-family:'LuloCleanOne';
       position:relative;
     }
     
     .sectionHeaders
     {
         color:white;
-        font-family:'Lato';
-        font-weight:300;
+        font-family:'LuloCleanOne';
     }
 
     .mobileMenu
@@ -248,18 +266,31 @@
     .rowHeaders
     {
       font-size:30px;
-      font-weight:300;
     }
     .rowText
     {
       font-size:18px;
-      font-weight:320;
       color:rgb(54,101,138);
     }
 
     .weekendCols
     {
       text-align: center;
+    }
+    .richmondCols
+    {
+      text-align: center;
+      padding-right:50px;
+      padding-left:50px;
+    }
+    .richmondContainers:after
+    {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 60%; /* Change this to whatever width you want. */
+        margin-bottom: 20px;
+        border-bottom:1px solid rgb(190,211,228);
     }
 
     .stemsFooter
@@ -312,3 +343,17 @@
     {
       margin-top:10%;
     }
+    .photoContainers
+    {
+      margin-top:50%;
+    }
+    .amp {
+      font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
+      font-size:90%;
+      font-style:italic;
+   }
+   .customNav
+   {
+     margin:0 auto;
+     /*border-bottom:1px solid rgb(190,211,228);*/
+   }
