@@ -11,12 +11,101 @@
 
     @font-face {
       font-family: LuloCleanOne;
-      src: url(fonts/LuloCleanOne.otf);
+      src: url(../fonts/LuloCleanOne.otf) format("opentype");;
     }
 
-    body {
-      font-family: 'Lato';
+    @media (min-width: 992px) {
+    .photosPhotoWrapper
+    {
+      width: 500px;
+      height: 500px;
+      overflow: hidden;
     }
+    .photosPhoto
+    {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 500px;
+      margin: auto;
+    }
+    .photosPhotoTop
+    {
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 500px;
+      margin: auto;
+    }
+    .photosPhotoBottom
+    {
+      background-size: cover;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 500px;
+      margin: auto;
+    }
+      .mobileCarousel
+      {
+        width:100%;
+      }
+      #heroTop
+      {
+        width:600px;
+      }
+      #heroBottom
+      {
+        width:500px;
+        margin-top:-40px;
+      }
+      header.masthead {
+        /*padding-top: calc(10rem + 55px);*/
+        padding-top:100px;
+        padding-bottom: 5rem;
+      }
+      header.masthead .masthead-content .masthead-heading {
+        font-size: 4rem;
+      }
+      header.masthead .masthead-content .masthead-subheading {
+        font-size: 2rem;
+      }
+      .nav-link
+      {
+        padding-left:2rem !important;
+        padding-right:2rem !important;
+      }
+      .nav-link:after
+      {
+          content: ""; /* This is necessary for the pseudo element to work. */ 
+          display: block; /* This will put the pseudo element on its own line. */
+          margin: 0 auto; /* This will center the border. */
+          width: 60%; /* Change this to whatever width you want. */
+          margin-bottom: 20px;
+          border-bottom:1px solid rgb(190,211,228);
+      }
+      .photoText{
+        display:block;
+      }
+    }
+
+    @media(min-width:768)
+    {
+      
+    }
+
+    @media(min-width:576px)
+    {
+
+    }
+    /* Everything smaller than 576px OR everything no matter what the size of the window */
+    html,body{
+      overflow-x: hidden;
+      font-family: 'Lato';
+
+  }
     
     h1,
     h2,
@@ -62,7 +151,7 @@
       font-size: 1rem;
       font-weight: 600;
       color:rgb(54,101,138);
-      font-family:LuloCleanOne;
+      font-family:'LuloCleanOne';
     }
     
     header.masthead {
@@ -98,45 +187,10 @@
       font-size: 1.5rem;
       color:rgba(190, 211, 228/*);*/, 0.7);
     }
-    
-    @media (min-width: 992px) {
-      #heroTop
-      {
-        width:600px;
-      }
-      #heroBottom
-      {
-        width:500px;
-        margin-top:-40px;
-      }
-      header.masthead {
-        /*padding-top: calc(10rem + 55px);*/
-        padding-top:100px;
-        padding-bottom: 5rem;
-      }
-      header.masthead .masthead-content .masthead-heading {
-        font-size: 4rem;
-      }
-      header.masthead .masthead-content .masthead-subheading {
-        font-size: 2rem;
-      }
-      .nav-link
-      {
-        padding-left:2rem !important;
-        padding-right:2rem !important;
-      }
-      .nav-link:after
-      {
-          content: ""; /* This is necessary for the pseudo element to work. */ 
-          display: block; /* This will put the pseudo element on its own line. */
-          margin: 0 auto; /* This will center the border. */
-          width: 60%; /* Change this to whatever width you want. */
-          margin-bottom: 20px;
-          border-bottom:1px solid rgb(190,211,228);
-      }
+    .mobileCarousel
+    {
+      width:70%;
     }
-
-    
     .bg-primary {
       background-color: #ee0979 !important;
     }
@@ -250,12 +304,14 @@
     #carouselExampleIndicators
     {
       width: 500px;
+      margin:0 auto;
     }
     .stemsBottom
     {
       display:block;
       margin:0 auto;
       width:20vw;
+      padding-bottom:5px;
     }
 
     .rightCol
@@ -315,6 +371,24 @@
       color:rgb(54,101,138);
       margin:5px;
     }
+    .buttonReg
+    {
+      width:50%;
+      background: 0 0;
+      border: 1px solid rgb(54,101,138);
+      background-color:rgb(54,101,138);
+      color:white;
+      margin:5px;
+    }
+    .buttonReg:hover
+    {
+      color:white;
+      text-decoration:none;
+    }
+    .row
+    {
+      margin-right:0px;
+    }
 
     .schedPhotoWrapper
     {
@@ -334,7 +408,55 @@
       height: 150px;
       margin: auto;
     }
-
+    .regPhotoWrapper
+    {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      margin: 0 auto 30px auto;
+    }
+    .regPhoto
+    {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 200px;
+      margin: auto;
+    }
+    .photosPhotoWrapper
+    {
+      width: 95vw;
+      height: 100%;
+      overflow: hidden;
+    }
+    .photosPhoto
+    {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 90vw;
+      height: 100vw;
+      margin: 0 auto;
+    }
+    .photosPhotoTop
+    {
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      width: 90vw;
+      height: 100vw;
+      margin: 0 auto;
+    }
+    .photosPhotoBottom
+    {
+      background-size: cover;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      width: 90vw;
+      height: 100vw;
+      margin: 0 auto;
+    }
     .schedRows
     {
       margin-bottom:50px;
@@ -345,7 +467,12 @@
     }
     .photoContainers
     {
-      margin-top:50%;
+      width: 500px;
+      height: 500px;
+    }
+    .photoText
+    {
+      padding-top:50%;
     }
     .amp {
       font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
@@ -357,3 +484,6 @@
      margin:0 auto;
      /*border-bottom:1px solid rgb(190,211,228);*/
    }
+   .photoText{
+    display:none;
+  }
