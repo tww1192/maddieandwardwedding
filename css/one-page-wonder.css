@@ -9,12 +9,63 @@
     light pink : 
     */
 
-    @font-face {
-      font-family: LuloCleanOne;
-      src: url(../fonts/LuloCleanOne.otf) format("opentype");;
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 575px) {
+    .mobileCarousel
+    {
+    }
+    .photosPhotoWrapper
+    {
+      width: 95vw;
+      height: 100%;
+      overflow: hidden;
+    }
+    .photosPhoto
+    {
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 90vw;
+      height: 100vw;
+      margin: 0 auto;
+    }
+    .weekendCols
+    {
+      padding-left:5px;
     }
 
-    @media (min-width: 992px) {
+    .photoText{
+    display:none;
+    }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 576px) {
+      .rightCol
+    {
+      border-left:1px solid rgb(54,101,138);
+    }
+    .mobileCarousel
+    {
+      width:100% !important;
+    }
+
+    #carouselExampleIndicators
+    {
+      width: 500px;
+      margin:0 auto;
+    }
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      .mobileCarousel
+    {
+      width:100% !important;
+    }
+    } 
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
     .photosPhotoWrapper
     {
       width: 500px;
@@ -24,33 +75,14 @@
     .photosPhoto
     {
       background-size: cover;
-      background-position: center;
       background-repeat: no-repeat;
       width: 500px;
       height: 500px;
-      margin: auto;
-    }
-    .photosPhotoTop
-    {
-      background-size: cover;
-      background-position: center top;
-      background-repeat: no-repeat;
-      width: 500px;
-      height: 500px;
-      margin: auto;
-    }
-    .photosPhotoBottom
-    {
-      background-size: cover;
-      background-position: center bottom;
-      background-repeat: no-repeat;
-      width: 500px;
-      height: 500px;
-      margin: auto;
+      margin: 0 auto;
     }
       .mobileCarousel
       {
-        width:100%;
+        width:100% !important;
       }
       #heroTop
       {
@@ -89,22 +121,20 @@
       .photoText{
         display:block;
       }
-    }
+    } 
 
-    @media(min-width:768)
-    {
-      
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
     }
-
-    @media(min-width:576px)
-    {
-
+    
+    /* Everything no matter the size of the window */
+    @font-face {
+      font-family: LuloCleanOne;
+      src: url(../fonts/LuloCleanOne.otf) format("opentype");;
     }
-    /* Everything smaller than 576px OR everything no matter what the size of the window */
     html,body{
       overflow-x: hidden;
       font-family: 'Lato';
-
   }
     
     h1,
@@ -186,10 +216,6 @@
     header.masthead .masthead-content .masthead-subheading {
       font-size: 1.5rem;
       color:rgba(190, 211, 228/*);*/, 0.7);
-    }
-    .mobileCarousel
-    {
-      width:70%;
     }
     .bg-primary {
       background-color: #ee0979 !important;
@@ -303,7 +329,6 @@
     }
     #carouselExampleIndicators
     {
-      width: 500px;
       margin:0 auto;
     }
     .stemsBottom
@@ -312,11 +337,6 @@
       margin:0 auto;
       width:20vw;
       padding-bottom:5px;
-    }
-
-    .rightCol
-    {
-      border-left:1px solid rgb(54,101,138);
     }
 
     .rowHeaders
@@ -424,38 +444,17 @@
       height: 200px;
       margin: auto;
     }
-    .photosPhotoWrapper
+    .photosCenter
     {
-      width: 95vw;
-      height: 100%;
-      overflow: hidden;
-    }
-    .photosPhoto
-    {
-      background-size: cover;
       background-position: center;
-      background-repeat: no-repeat;
-      width: 90vw;
-      height: 100vw;
-      margin: 0 auto;
     }
-    .photosPhotoTop
+    .photosBottom
     {
-      background-size: cover;
-      background-position: center top;
-      background-repeat: no-repeat;
-      width: 90vw;
-      height: 100vw;
-      margin: 0 auto;
-    }
-    .photosPhotoBottom
-    {
-      background-size: cover;
       background-position: center bottom;
-      background-repeat: no-repeat;
-      width: 90vw;
-      height: 100vw;
-      margin: 0 auto;
+    }
+    .photosTop
+    {
+      background-position: center top;
     }
     .schedRows
     {
@@ -465,11 +464,7 @@
     {
       margin-top:10%;
     }
-    .photoContainers
-    {
-      width: 500px;
-      height: 500px;
-    }
+    
     .photoText
     {
       padding-top:50%;
@@ -484,6 +479,3 @@
      margin:0 auto;
      /*border-bottom:1px solid rgb(190,211,228);*/
    }
-   .photoText{
-    display:none;
-  }
