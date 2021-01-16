@@ -11,9 +11,6 @@
 
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 575px) {
-    .mobileCarousel
-    {
-    }
     .photosPhotoWrapper
     {
       width: 95vw;
@@ -44,10 +41,6 @@
     {
       border-left:1px solid rgb(54,101,138);
     }
-    .mobileCarousel
-    {
-      width:100% !important;
-    }
 
     #carouselExampleIndicators
     {
@@ -58,10 +51,6 @@
 
     /* Medium devices (landscape tablets, 768px and up) */
     @media only screen and (min-width: 768px) {
-      .mobileCarousel
-    {
-      width:100% !important;
-    }
     } 
 
     /* Large devices (laptops/desktops, 992px and up) */
@@ -80,10 +69,6 @@
       height: 500px;
       margin: 0 auto;
     }
-      .mobileCarousel
-      {
-        width:100% !important;
-      }
       #heroTop
       {
         width:600px;
