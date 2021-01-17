@@ -11,8 +11,49 @@
 
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 575px) {
+      .rowHeaders{
+        font-size:20px;
+      }
+      .weekendHeader
+      {
+        font-size:1.8rem;
+      }
+      .sectionClass
+      {
+        padding-top:30px;
+      }
+      .ourStoryParagraph
+      {
+        padding-left:40px;
+        padding-right:40px;
+      }
+      .ourStoryHeader
+      {
+        padding-left:40px;
+        padding-right:40px;
+      }
+      .text-center
+      {
+        padding-left:10px;
+        padding-right:10px;
+      }
+      .p-5
+      {
+        padding:0 !important;
+      }
+      .rightCol{
+        padding-top:50px;
+      }
+      .schedContainers
+    {
+      margin-top:0px;
+    }
+    .customNav{
+      padding-left:11px !important;
+    }
     .photosPhotoWrapper
     {
+      padding-top:50px;
       width: 95vw;
       height: 100%;
       overflow: hidden;
@@ -27,19 +68,56 @@
     }
     .weekendCols
     {
-      padding-left:5px;
+      padding-left:20px;
     }
 
     .photoText{
     display:none;
     }
+
+    .schedRows
+    {
+      margin-bottom:0px;
+    }
     }
 
     /* Small devices (portrait tablets and large phones, 600px and up) */
     @media only screen and (min-width: 576px) {
+
+    .schedRows
+    {
+      margin-bottom:50px;
+    }
+      .customNav{
+        padding-left:11px !important;
+      }
+      .col-sm-6
+      {
+        max-width:100%;
+      }
+
+    .photoText{
+      display:none;
+      }
+
+    .photosPhotoWrapper
+    {
+      width: 500px;
+      height: 500px;
+      overflow: hidden;
+    }
+    .photosPhoto
+    {
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 500px;
+      margin: 0 auto;
+    }
       .rightCol
     {
       border-left:1px solid rgb(54,101,138);
+      padding-top:0px;
     }
 
     #carouselExampleIndicators
@@ -51,10 +129,42 @@
 
     /* Medium devices (landscape tablets, 768px and up) */
     @media only screen and (min-width: 768px) {
+      
+    .photosPhotoWrapper
+    {
+      width: 500px;
+      height: 500px;
+      overflow: hidden;
+    }
+    .photosPhoto
+    {
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 500px;
+      margin: 0 auto;
+    }
     } 
 
     /* Large devices (laptops/desktops, 992px and up) */
     @media only screen and (min-width: 992px) {
+
+    .rowHeaders
+    {
+      font-size:30px;
+    }
+      
+      .col-sm-6
+      {
+        max-width:50%;
+      }
+
+   .customNav
+   {
+    margin:0 auto;
+    padding-left:11px !important;
+     /*border-bottom:1px solid rgb(190,211,228);*/
+   }
     .photosPhotoWrapper
     {
       width: 500px;
@@ -106,6 +216,11 @@
       .photoText{
         display:block;
       }
+
+    .schedContainers
+    {
+      margin-top:10%;
+    }
     } 
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -324,10 +439,6 @@
       padding-bottom:5px;
     }
 
-    .rowHeaders
-    {
-      font-size:30px;
-    }
     .rowText
     {
       font-size:18px;
@@ -337,6 +448,7 @@
     .weekendCols
     {
       text-align: center;
+      margin:0 auto;
     }
     .richmondCols
     {
@@ -441,26 +553,26 @@
     {
       background-position: center top;
     }
-    .schedRows
-    {
-      margin-bottom:50px;
-    }
-    .schedContainers
-    {
-      margin-top:10%;
-    }
     
     .photoText
     {
-      padding-top:50%;
+      padding-top:40%;
     }
     .amp {
       font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
       font-size:90%;
       font-style:italic;
    }
-   .customNav
+   .container {
+    padding-left:0px;
+    padding-right:0px;
+   }
+   .col-lg-6 {
+    padding-left:0px;
+    padding-right:0px;
+   }
+   .richmondText
    {
-     margin:0 auto;
-     /*border-bottom:1px solid rgb(190,211,228);*/
+    font-size:14px;
+    font-style:italic;
    }
