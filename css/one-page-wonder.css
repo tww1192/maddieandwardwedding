@@ -11,16 +11,21 @@
 
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 575px) {
+      .ourStory{
+        padding-top:40px !important;
+      }
       .rowHeaders{
-        font-size:20px;
+        font-size:22px;
+        font-weight:450;
       }
       .weekendHeader
       {
-        font-size:1.8rem;
+        font-size:1.5rem;
+        font-weight:bold;
       }
       .sectionClass
       {
-        padding-top:30px;
+        padding-top:100px;
       }
       .ourStoryParagraph
       {
@@ -41,8 +46,20 @@
       {
         padding:0 !important;
       }
-      .rightCol{
-        padding-top:50px;
+      .weekendCols
+      {
+        padding-left:20px;
+        padding-top:25px;
+        padding-bottom:25px;
+      }
+      .photoCols
+      {
+        padding-top:0px !important;
+        padding-bottom:0px !important;
+      }
+      .schedRows hr{
+        width: 60%;
+        border-bottom:1px solid rgb(190,211,228);
       }
       .schedContainers
     {
@@ -66,14 +83,14 @@
       height: 100vw;
       margin: 0 auto;
     }
-    .weekendCols
-    {
-      padding-left:20px;
-    }
 
     .photoText{
     display:none;
     }
+    .photoTextMobile{
+      padding-top:10px;
+      font-size:20px;
+      }
 
     .schedRows
     {
@@ -83,6 +100,17 @@
 
     /* Small devices (portrait tablets and large phones, 600px and up) */
     @media only screen and (min-width: 576px) {
+      .ourStory{
+        padding-top:0px !important;
+      }
+      .rowHeaders
+    {
+      font-size:25px;
+    }
+      .sectionClass
+      {
+        padding-top:50px;
+      }
 
     .schedRows
     {
@@ -99,11 +127,15 @@
     .photoText{
       display:none;
       }
+      .photoTextMobile{
+        padding-top:10px;
+        font-size:20px;
+        }
 
     .photosPhotoWrapper
     {
       width: 500px;
-      height: 500px;
+      height: 575px;
       overflow: hidden;
     }
     .photosPhoto
@@ -133,7 +165,7 @@
     .photosPhotoWrapper
     {
       width: 500px;
-      height: 500px;
+      height: 575px;
       overflow: hidden;
     }
     .photosPhoto
@@ -151,7 +183,7 @@
 
     .rowHeaders
     {
-      font-size:30px;
+      font-size:28px;
     }
       
       .col-sm-6
@@ -220,6 +252,28 @@
     .schedContainers
     {
       margin-top:10%;
+    }
+
+    .navbar-custom {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background-color: rgba(255,255,255, 0.7);
+    }
+    
+    .navbar-custom .navbar-brand {
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      font-weight: 600;
+      color:rgb(54,101,138);
+    }
+    
+    .navbar-custom .navbar-nav .nav-item .nav-link {
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 600;
+      color:rgb(54,101,138);
+      font-family:'LuloCleanOne';
     }
     } 
 
